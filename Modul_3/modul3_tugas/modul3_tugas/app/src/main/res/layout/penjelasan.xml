@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_1488106d329bb0004dbd344" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="12dp"
+        android:text="Google Maps adalah layanan peta dan navigasi online yang disediakan oleh Google. Layanan ini menyediakan informasi peta global, navigasi arah, lokasi bisnis, informasi lalu lintas, dan gambar satelit dari seluruh dunia. Google Maps awalnya diluncurkan pada tahun 2005 dan sejak itu terus berkembang dan ditingkatkan oleh Google."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="333dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="12dp"
+        android:text="Google Maps memungkinkan pengguna untuk menemukan lokasi tertentu, melihat rute ke lokasi yang dituju, mengetahui informasi lalu lintas dalam waktu nyata, menemukan bisnis lokal, melihat gambar satelit dan foto jalan, dan banyak lagi. Selain itu, Google Maps juga memiliki fitur integrasi dengan layanan transportasi publik dan sistem navigasi untuk mobil, yang memungkinkan pengguna untuk merencanakan perjalanan mereka dengan lebih mudah dan efisien."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
