@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="30dp"
+        android:text="Game List"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TableLayout
+        android:layout_width="359dp"
+        android:layout_height="487dp"
+        android:background="#112658"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="161dp"
+                android:layout_height="119dp"
+                app:srcCompat="@drawable/dota_2_use" />
+
+            <TextView
+                android:id="@+id/btndota"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Dota 2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="159dp"
+                android:layout_height="125dp"
+                app:srcCompat="@drawable/stardew_valley" />
+
+            <TextView
+                android:id="@+id/btnstardew"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Stardew Valley"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="109dp"
+                android:layout_height="132dp"
+                app:srcCompat="@drawable/elden_ring" />
+
+            <TextView
+                android:id="@+id/btnelden"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Elden Ring"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="339dp"
+            android:layout_height="174dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="162dp"
+                android:layout_height="125dp"
+                app:srcCompat="@drawable/the_forest" />
+
+            <TextView
+                android:id="@+id/theforest"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:text="Sons Of The Forest"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!--        <TableRow-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_marginLeft="15dp">-->
+
+        <!--            <ImageView-->
+        <!--                android:id="@+id/imageView11"-->
+        <!--                android:layout_width="164dp"-->
+        <!--                android:layout_height="116dp"-->
+        <!--                app:srcCompat="@drawable/coral_island" />-->
+
+        <!--            <Button-->
+        <!--                android:id="@+id/btncoral"-->
+        <!--                android:layout_width="150dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginLeft="15dp"-->
+        <!--                android:layout_marginTop="30dp"-->
+        <!--                android:text="Coral Island"-->
+        <!--                android:textSize="16sp"-->
+        <!--                android:textStyle="bold" />-->
+        <!--        </TableRow>-->
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
